@@ -2,11 +2,11 @@
   "name": "marvel-api-scraper",
   "version": "1.0.0",
   "description": "A tool for fetching and storing Marvel character data",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js",
-    "dev": "ts-node server.ts"
+    "build": "echo 'No build step needed for JavaScript'",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "axios": "^1.6.0",
@@ -17,10 +17,6 @@
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
-    "@types/node": "^20.8.9",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "@types/node": "^20.8.9"
   }
 }
